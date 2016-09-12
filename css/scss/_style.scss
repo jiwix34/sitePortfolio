@@ -48,65 +48,6 @@ h2{
   font-family: 'Patua One', cursive;
 }
 
-///// barre de navigation /////
-@media (min-width:768px) {
-.containernav{
-  background-color: black;
-  height: 60px;
-  position: fixed;
-  z-index: 10;
-  line-height: 60px;
-  border-bottom-left-radius: 100%;
-  border-bottom-right-radius: 100%;
-}
-
-.groupelistenav{
-  display:flex;
-  justify-content: center;
-  margin-left: -60px;
-}
-
-.listenav{
-  color: white;
-  list-style: none;
-  font-size: 24px;
-  font-family: hacked;
-  margin-left: 20px;
-}
-.listenav a{
-  text-decoration: none;
-  color: white;
-  text-shadow: black 3px 3px 6px;
-  transition: 1s;
-}
-.listenav a:hover{
-  color: grey;
-  transition: 1s;
-
-}
-///// deux premier lien qui sont tournee /////
-.listenav1{
-  transform: skewY(-10deg);
-  transition: 0.5s;
-}
-///// deux dernier lien qui sont tournee /////
-
-.listenav2{
-  transform: skewY(10deg);
-  transition: 0.5s;
-}
-
-///// au passage de la souri le menu se redresse /////
-.listenav1:hover{
-  transform: skewY(0deg);
-  transition: 0.5s;
-}
-.listenav2:hover{
-  transform: skewY(-0deg);
-  transition: 0.5s;
-}
-}
-///// fin de barre de nav /////
 
 ///// la ou et placer mon image /////
 .sectionimage{
@@ -149,56 +90,5 @@ article{
   article{
 margin-left: 20px;
 margin-right: 20px;
-}
-}
-
-///// fond noir du footer /////
-footer{
-  background-color: black;
-}
-
-.textecontact{
-color: white;
-padding-top: 5px;
-}
-
-///// div qui englobe lien /////
-#contact{
-padding-top: 30px;
-text-align: center;
-}
-
-.liencontact{
-  list-style: none;
-  display: inline-block;
-  transition: 2s;
-}
-
-.listelien{
-  margin-left: -30px;
-}
-@media (max-width:768px){
-
-.photofooter{
-    width: 50px;
-    transition: 2s;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-}
-
-
-@media (min-width:768px){
-.liencontactreseau{
-  transition: 1s;
-  margin-left: 40px;
-  margin-right: 40px;
-  border-radius: 100%;
-
-}
-.liencontactreseau:hover{
-  background-color: white;
-  transition: 1s;
-  border-radius: 0%;
 }
 }

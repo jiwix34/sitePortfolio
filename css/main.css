@@ -1,12 +1,6 @@
-@font-face {
-  font-family: 'hacked';
-  src: url("./police/hacked.ttf"); }
-body {
-  background-color: white; }
-
 #fondtete h1 {
   color: white;
-  font-family: hacked, serif;
+  font-family: 'Black Ops One', cursive;
   text-align: center;
   font-size: 80px;
   padding-top: 45px;
@@ -26,46 +20,6 @@ body {
   width: 100%;
   margin-top: -20px; }
 
-h2 {
-  text-align: center;
-  font-size: 40px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  text-decoration: underline;
-  color: black;
-  font-family: 'Patua One', cursive; }
-
-.sectionimage {
-  margin-top: 30px;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 500px; }
-
-#image1 {
-  background-image: url("./img/test.jpg");
-  display: none; }
-
-@media (min-width: 768px) {
-  #image1 {
-    display: block; } }
-.toutesection {
-  margin-bottom: 30px;
-  padding-top: 80px; }
-
-article {
-  margin-left: 120px;
-  margin-right: 120px;
-  color: black;
-  font-family: 'Patua One', cursive;
-  font-size: 18px;
-  text-align: center; }
-
-@media (max-width: 768px) {
-  article {
-    margin-left: 20px;
-    margin-right: 20px; } }
 @media (min-width: 768px) {
   .containernav {
     background-color: black;
@@ -149,5 +103,51 @@ footer {
     background-color: white;
     transition: 1s;
     border-radius: 0%; } }
+body {
+  background-color: white; }
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-decoration: underline;
+  color: black;
+  font-family: 'Patua One', cursive; }
+
+.toutesection {
+  margin-bottom: 30px;
+  padding-top: 80px; }
+
+article {
+  margin-left: 120px;
+  margin-right: 120px;
+  color: black;
+  font-family: 'Patua One', cursive;
+  font-size: 18px;
+  text-align: center; }
+
+@media (max-width: 768px) {
+  article {
+    margin-left: 20px;
+    margin-right: 20px; } }
+.sectionimage {
+  margin-top: 30px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px; }
+
+#image1 {
+  background-image: url("./img/test.jpg");
+  display: none; }
+
+@media (min-width: 768px) {
+  #image1 {
+    display: block; } }
+@font-face {
+  font-family: 'hacked';
+  src: url("./police/hacked.ttf"); }
 
 /*# sourceMappingURL=main.css.map */

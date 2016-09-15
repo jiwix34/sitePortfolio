@@ -115,6 +115,13 @@ h2 {
   color: black;
   font-family: 'Patua One', cursive; }
 
+table {
+  margin: auto; }
+
+td {
+  border: 1px solid black;
+  padding: 5px; }
+
 .toutesection {
   margin-bottom: 30px;
   padding-top: 80px; }
@@ -125,7 +132,7 @@ article {
   color: black;
   font-family: 'Patua One', cursive;
   font-size: 18px;
-  text-align: center; }
+  text-align: justify; }
 
 @media (max-width: 768px) {
   article {

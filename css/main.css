@@ -137,7 +137,8 @@ article {
 @media (max-width: 768px) {
   article {
     margin-left: 20px;
-    margin-right: 20px; } }
+    margin-right: 20px;
+    text-align: center; } }
 .sectionimage {
   margin-top: 30px;
   background-attachment: fixed;
